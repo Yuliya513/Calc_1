@@ -1,0 +1,15 @@
+package com.math.calculator;
+
+        import org.junit.Test;
+
+        import static org.junit.Assert.assertEquals;
+
+        public class InputOutputTest {
+
+        @Test
+        public void shouldTakeUserInput() {
+        InputOutput inputOutput= new InputOutput();
+
+        assertEquals("add 5", inputOutput.getInput());
+        }
+        }
